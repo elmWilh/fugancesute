@@ -1,1 +1,109 @@
-.has-background-image{background-image:url(../img/background.png);background-size:cover;background-position:top center}.has-cta-background-image{background-image:url(https://i.imgur.com/kXdO6WH.jpg);background-size:cover;background-position:top center}.has-gtc-background-image{background-image:url(https://i.imgur.com/kXdO6WH.jpg);background-size:cover;background-position:bottom center}.navbar{background:0 0;transition:.2s ease-in-out}@media screen and (max-width:1025px){.navbar{background:#fff!important;color:#000!important}.navbar-brand .navbar-item,.navbar-menu .navbar-item{color:#000!important}}.navbar .container .navbar-burger{color: #363636a8}.navbar-brand .navbar-item,.navbar-menu .navbar-item{color:#fff}.fixed{position:fixed;top:0;width:100%;z-index:10}.has-small-margin{margin:8px}.has-medium-margin{margin:16px}.has-large-margin{margin:32px}.has-small-margin-top{margin-top:8px}.has-medium-margin-top{margin-top:16px}.has-large-margin-top{margin-top:32px}.has-huge-margin-top{margin-top:80px}.has-small-margin-bottom{margin-bottom:8px}.has-medium-margin-bottom{margin-bottom:16px}.has-large-margin-bottom{margin-bottom:32px}.is-text-primary{color:#00b89c}.is-popular{margin-top:-15px;background:#00b89c;color:#fff}.card.is-primary{background:#00b89c;color:#fff}.section.is-light{background:#eee}
+.has-background-image {
+    background-image: url(../img/background.png);
+    background-size: cover;
+    background-position: top center
+}
+
+.has-cta-background-image {
+    background-image: url(https://i.imgur.com/kXdO6WH.jpg);
+    background-size: cover;
+    background-position: top center
+}
+
+.has-gtc-background-image {
+    background-image: url(https://i.imgur.com/kXdO6WH.jpg);
+    background-size: cover;
+    background-position: bottom center
+}
+
+.navbar {
+    background: 0 0;
+    transition: .2s ease-in-out
+}
+
+@media screen and (max-width:1025px) {
+    .navbar {
+        background: #fff !important;
+        color: #000 !important
+    }
+
+    .navbar-brand .navbar-item,
+    .navbar-menu .navbar-item {
+        color: #000 !important
+    }
+}
+
+.navbar .container .navbar-burger {
+    color: #363636a8
+}
+
+.navbar-brand .navbar-item,
+.navbar-menu .navbar-item {
+    color: #fff
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 10
+}
+
+.has-small-margin {
+    margin: 8px
+}
+
+.has-medium-margin {
+    margin: 16px
+}
+
+.has-large-margin {
+    margin: 32px
+}
+
+.has-small-margin-top {
+    margin-top: 8px
+}
+
+.has-medium-margin-top {
+    margin-top: 16px
+}
+
+.has-large-margin-top {
+    margin-top: 32px
+}
+
+.has-huge-margin-top {
+    margin-top: 80px
+}
+
+.has-small-margin-bottom {
+    margin-bottom: 8px
+}
+
+.has-medium-margin-bottom {
+    margin-bottom: 16px
+}
+
+.has-large-margin-bottom {
+    margin-bottom: 32px
+}
+
+.is-text-primary {
+    color: #00b89c
+}
+
+.is-popular {
+    margin-top: -15px;
+    background: #00b89c;
+    color: #fff
+}
+
+.card.is-primary {
+    background: #00b89c;
+    color: #fff
+}
+
+.section.is-light {
+    background: #eee
+}
