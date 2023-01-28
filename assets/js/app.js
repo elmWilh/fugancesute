@@ -1,7 +1,3 @@
-/**
- * Set global server variables
- * You may include ports in your server_ip (default is 25565, SRV is supported)
- */
 var SERVER_NAME = 'FUGANCE';
 var SERVER_IP = 'fugance.xyz';
 
