@@ -1,516 +1,498 @@
-<!--
-
- Hi! Thanks for downloading this template!
- Before you start editing, please read the docs if you're in inexperienced.
-
- Basic knowledge of HTML, CSS and Javascript is recommended.
- However, by reading the docs editing won't be to hard for inexperienced people.
-
- If you like this resource please rate it on Spigot!
-
- PLEASE NOTE:
- You can change SERVER_NAME and SERVER_IP in /assets/js/app.js
-
--->
-
 <!DOCTYPE html>
 <html>
 
 <head>
-  <!-- Required Meta Tags -->
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta property="og:title" content="fugance.xyz" /> <!-- EDIT THIS ONE -->
-  <meta property="og:site_name" content="fugance.xyz - сайт" /> <!-- EDIT THIS ONE -->
-  <meta property="og:type" content="website" /> <!-- EDIT THIS ONE -->
-  <meta property="og:url" content="https://fugance.xyz/" /> <!-- EDIT THIS ONE -->
-  <meta property="og:description" content="fugance.xyz - это приватный, ванильный сервер для раскрытия игроками собственного творческого потенциала в среде ванильного выживания" /> <!-- EDIT THIS ONE -->
-  <!-- End Required Meta Tags -->
+    <!-- Required Meta Tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:title" content="fugance.xyz" />
+    <meta property="og:site_name" content="fugance.xyz - сайт" />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://fugance.xyz/" />
+    <meta property="og:description" content="fugance.xyz - это приватный, ванильный сервер для раскрытия игроками собственного творческого потенциала в среде ванильного выживания" />
+    <!-- End Required Meta Tags -->
 
-  <!-- Start Title -->
-  <title>Fugance.xyz &mdash; Home</title> <!-- EDIT THIS ONE -->
-  <!-- End Title -->
+    <!-- Start Title -->
+    <title>Fugance.xyz &mdash; Home</title>
+    <!-- End Title -->
 
-  <!-- Start Required Links -->
+    <!-- Start Required Links -->
 
-  <!-- https://fontawesome.com/ -->
-  <link rel="stylesheet" href="https://kit-free.fontawesome.com/releases/latest/css/free.min.css" media="all">
-  <!-- https://bulma.io/ -->
-  <link rel="stylesheet" href="./assets/css/bulma.min.css">
-  <!-- Custom CSS -->
-  <link rel="stylesheet" href="./assets/css/style.css">
+    <!-- https://fontawesome.com/ -->
+    <link rel="stylesheet" href="./assets/css/fontawesome.css" media="all">
+    <!-- https://bulma.io/ -->
+    <link rel="stylesheet" href="./assets/css/bulma.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
 
-  <!-- End Required Links -->
+    <!-- End Required Links -->
 </head>
 
 <body>
-  <!-- Start Navbar -->
-  <nav id="navbar" class="navbar fixed is-transparent" role="navigation" aria-label="main navigation">
-    <div class="container">
-      <div class="navbar-brand">
-        <!-- Start Navbar Brand -->
-        <a class="navbar-item has-text-weight-bold server-name" href="index.html"></a>
-        <!-- End Navbar Brand -->
-        <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
-          data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-        </a>
-      </div>
-      <!-- Start Navbar Menu -->
-      <div id="navbarBasicExample" class="navbar-menu">
-        <div class="navbar-start">
-          <a href="index.html" class="navbar-item">
-            Главная
-          </a>
-          <a href="games.html" class="navbar-item">
-            Правила
-          </a>
-          <a href="/forums" class="navbar-item">
-            Моды
-          </a>
-        </div>
-        <!-- Start Navbar End -->
-        <div class="navbar-end">
-          <a id="ip-button" class="navbar-item">
-            <strong class="has-text-primary server-ip is-uppercase"></strong>
-          </a>
-          <a href="/login" class="navbar-item">
-            Войти
-          </a>
-        </div>
-        <!-- End Navbar End -->
-      </div>
-      <!-- End Navbar Menu -->
-    </div>
-  </nav>
-  <!-- End Navbar -->
-
-  <!-- Start Hero -->
-  <section class="hero has-background-image is-fullheight">
-    <div class="hero-body">
-      <div class="container has-text-centered">
-        <!-- Start Hero Title -->
-        <p class="title is-1 has-text-white server-name"></p>
-        <!-- End Hero Title -->
-
-        <!-- Start Hero Subtitle -->
-        <p class="subtitle has-text-white">
-          Ванильный сервер майнкрафт для комфорта и реализации идей. <span
-            class="has-text-weight-bold server-ip"></span>
-        </p>
-        <!-- End Hero Subtitle -->
-      </div>
-    </div>
-  </section>
-  <!-- End Hero -->
-
-  <!--  Start About Section -->
-  <section class="section is-medium has-text-centered">
-    <div class="container">
-      <!-- Start About Titles  -->
-      <h1 class="title">Про сервер</h1>
-      <h5 class="subtitle">Только лучшее что мы можем вам предоставить.</h5>
-      <!-- End About Titles -->
-      <div class="content">
-
-        <!-- Start About Icons Row 1 -->
-        <div class="columns has-huge-margin-top">
-
-          <!-- Start Icon 1 -->
-          <div class="column">
-            <div class="icon">
-              <img src="assets/img/speed.png">
+    <!-- Start Navbar -->
+    <nav id="navbar" class="navbar fixed is-transparent" role="navigation" aria-label="main navigation">
+        <div class="container">
+            <div class="navbar-brand">
+                <!-- Start Navbar Brand -->
+                <a class="navbar-item has-text-weight-bold server-name" href="index.html"></a>
+                <!-- End Navbar Brand -->
+                <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
             </div>
-            <div>
-              <h6 class="title is-6 has-medium-margin-top">Скорость работы</h6>
-            </div>
-          </div>
-          <!-- End Icon 1 -->
-
-          <!-- Start Icon 2 -->
-          <div class="column">
-            <div class="icon">
-              <img src="assets/img/ticket.png">
-            </div>
-            <div>
-              <h6 class="title is-6 has-medium-margin-top">Дешёвые проходки</h6>
-            </div>
-          </div>
-          <!-- End Icon 2 -->
-
-          <!-- Start Icon 3 -->
-          <div class="column">
-            <div class="icon">
-              <img src="assets/img/heart.png">
-            </div>
-            <div>
-              <h6 class="title is-6 has-medium-margin-top">Весёлое комьюнити</h6>
-            </div>
-          </div>
-          <!-- End Icon 3 -->
-
-        </div>
-        <!-- End About Icons Row 1 -->
-
-        <!-- Start About Icons Row 2 -->
-        <div class="columns has-large-margin-top">
-
-          <!-- Start Icon 4 -->
-          <div class="column">
-            <div class="icon">
-              <img src="assets/img/coin.png">
-            </div>
-            <div>
-              <h6 class="title is-6 has-medium-margin-top">Стабильная валюта</h6>
-            </div>
-          </div>
-          <!-- End Icon 4 -->
-
-          <!-- Start Icon 5 -->
-          <div class="column">
-            <div class="icon">
-              <img src="assets/img/support.png">
-            </div>
-            <div>
-              <h6 class="title is-6 has-medium-margin-top">Быстрая консультация</h6>
-            </div>
-          </div>
-          <!-- End Icon 5 -->
-
-          <!-- Start Icon 6 -->
-          <div class="column">
-            <div class="icon">
-              <img src="assets/img/clock.png">
-            </div>
-            <div>
-              <h6 class="title is-6 has-medium-margin-top">Стабильный TPS</h6>
-            </div>
-          </div>
-          <!-- End Icon 6 -->
-
-        </div>
-        <!-- End About Icons Row 2 -->
-
-      </div>
-    </div>
-  </section>
-  <!-- End About Section  -->
-
-  <!-- Start Call Call To Action Banner 1 -->
-  <section class="hero has-cta-background-image ">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title has-text-white">
-          What are you waiting for?
-        </h1>
-        <h2 class="subtitle has-text-white">
-          Come join us at <strong class="has-text-white server-ip"></strong>
-        </h2>
-      </div>
-    </div>
-  </section>
-  <!-- Start Call Call To Action Banner 2 -->
-
-  <!-- Start Support The Server Section -->
-  <section class="section is-medium">
-    <div class="container has-text-centered">
-      <!-- Start Support The Server Titles -->
-      <h1 class="title">Support the server</h1>
-      <h5 class="subtitle">Because you <span class="has-text-danger">&hearts;</span> us</h5>
-      <!-- End Support The Server Titles -->
-      <div class="content">
-        <div class="columns has-huge-margin-top">
-
-          <!-- Start Support Item 1 -->
-          <div class="column">
-            <div class="card">
-              <div class="card-content">
-                <div class="content">
-                  <h3>Vip</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus viverra porta.</p>
-                  <p>Aenean elementum, massa vel vestibulum posuere, risus orci iaculis lorem, id tempus dui nulla vel
-                    nulla. Etiam eget sapien sed eros iaculis sollicitudin. </p>
-                  <p>Curabitur laoreet justo tellus, a venenatis felis malesuada vel.</p>
-                  <h4>$15,00</h4>
-                  <a href=# class="button is-primary">Buy now</a>
+            <!-- Start Navbar Menu -->
+            <div id="navbarBasicExample" class="navbar-menu">
+                <div class="navbar-start">
+                    <a href="index.html" class="navbar-item">
+                        Главная
+                    </a>
+                    <a href="games.html" class="navbar-item">
+                        Правила
+                    </a>
+                    <a href="/forums" class="navbar-item">
+                        Моды
+                    </a>
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Support Item 1 -->
-
-          <!-- Start Support Item 2 -->
-          <div class="column">
-            <div class="card is-popular has-text-centered">
-              <div class="card-content">
-                <div class="content">
-                  <h3 class="has-text-white">Vip+ <span class="tag is-white">POPULAR</span></h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus viverra porta.</p>
-                  <p>Aenean elementum, massa vel vestibulum posuere, risus orci iaculis lorem, id tempus dui nulla vel
-                    nulla. Etiam eget sapien sed eros iaculis sollicitudin. </p>
-                  <p>Curabitur laoreet justo tellus, a venenatis felis malesuada vel.</p>
-                  <h4 class="has-text-white">$30,00</h4>
-                  <a href=# class="button is-white">Buy now</a>
+                <!-- Start Navbar End -->
+                <div class="navbar-end">
+                    <a id="ip-button" class="navbar-item">
+                        <strong class="has-text-primary server-ip is-uppercase"></strong>
+                    </a>
+                    <a href="/login" class="navbar-item">
+                        Войти
+                    </a>
                 </div>
-              </div>
+                <!-- End Navbar End -->
             </div>
-          </div>
-          <!-- Start Support Item 2 -->
+            <!-- End Navbar Menu -->
+        </div>
+    </nav>
+    <!-- End Navbar -->
 
-          <!-- Start Support Item 3 -->
-          <div class="column">
-            <div class="card has-text-centered">
-              <div class="card-content">
-                <div class="content">
-                  <h3>MVP</h3>
-                  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus viverra porta.</p>
-                  <p>Aenean elementum, massa vel vestibulum posuere, risus orci iaculis lorem, id tempus dui nulla vel
-                    nulla. Etiam eget sapien sed eros iaculis sollicitudin. </p>
-                  <p>Curabitur laoreet justo tellus, a venenatis felis malesuada vel.</p>
-                  <h4>$45,00</h4>
-                  <a href=# class="button is-primary">Buy now</a>
-                </div>
-              </div>
+    <!-- Start Hero -->
+    <section class="hero has-background-image is-fullheight">
+        <div class="hero-body">
+            <div class="container has-text-centered">
+                <!-- Start Hero Title -->
+                <p class="title is-1 has-text-white server-name"></p>
+                <!-- End Hero Title -->
+
+                <!-- Start Hero Subtitle -->
+                <p class="subtitle has-text-white">
+                    Ванильный сервер майнкрафт для комфорта и реализации идей. <span class="has-text-weight-bold server-ip"></span>
+                </p>
+                <!-- End Hero Subtitle -->
             </div>
-          </div>
-          <!-- Start Support Item 3 -->
-
         </div>
-      </div>
-    </div>
-  </section>
-  <!-- End Support The Server Section -->
+    </section>
+    <!-- End Hero -->
 
-  <!-- Start Meet The Team Section -->
-  <section class="section is-light is-medium has-text-centered">
-    <div class="container">
-      <!-- Start Meet The Team Titles -->
-      <h1 class="title">Meet the team</h1>
-      <h5 class="subtitle">We're kind, we promise</h5>
-      <!-- End Meet The Team Titles -->
-      <div class="content">
+    <!--  Start About Section -->
+    <section class="section is-medium has-text-centered">
+        <div class="container">
+            <!-- Start About Titles  -->
+            <h1 class="title">Про сервер</h1>
+            <h5 class="subtitle">Только лучшее что мы можем вам предоставить.</h5>
+            <!-- End About Titles -->
+            <div class="content">
 
-        <!-- Start Team Avatars Row 1 -->
-        <div class="columns has-large-margin-top">
+                <!-- Start About Icons Row 1 -->
+                <div class="columns has-huge-margin-top">
 
-          <!-- Start Team Item 1 -->
-          <div class="column">
-            <img src="https://mc-heads.net/avatar/GuFugu" alt="GuFugu">
-            <h6 class="is-6 has-small-margin-top">Owner <span class="has-text-weight-normal">/ GuFugu</span></h6>
-          </div>
-          <!-- End Team Item 1 -->
+                    <!-- Start Icon 1 -->
+                    <div class="column">
+                        <div class="icon">
+                            <img src="assets/img/speed.png">
+                        </div>
+                        <div>
+                            <h6 class="title is-6 has-medium-margin-top">Скорость работы</h6>
+                        </div>
+                    </div>
+                    <!-- End Icon 1 -->
 
-          <!-- Start Team Item 2 -->
-          <div class="column">
-            <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
-            <h6 class="is-6 has-small-margin-top">Admin <span class="has-text-weight-normal">/ Player</span></h6>
-          </div>
-          <!-- End Team Item 2 -->
+                    <!-- Start Icon 2 -->
+                    <div class="column">
+                        <div class="icon">
+                            <img src="assets/img/ticket.png">
+                        </div>
+                        <div>
+                            <h6 class="title is-6 has-medium-margin-top">Дешёвые проходки</h6>
+                        </div>
+                    </div>
+                    <!-- End Icon 2 -->
 
-          <!-- Start Team Item 3 -->
-          <div class="column">
-            <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
-            <h6 class="is-6 has-small-margin-top">Moderator <span class="has-text-weight-normal">/ Player</span></h6>
-          </div>
-          <!-- End Team Item 3 -->
-
-        </div>
-        <!-- Start Team Avatars Row 1 -->
-
-        <!-- Start Team Avatars Row 2 -->
-        <div class="columns">
-
-          <!-- Start Team Item 4 -->
-          <div class="column">
-            <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
-            <h6 class="is-6 has-small-margin-top">Helper <span class="has-text-weight-normal">/ Player</span></h6>
-          </div>
-          <!-- End Team Item 4 -->
-
-          <!-- Start Team Item 5 -->
-          <div class="column">
-            <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
-            <h6 class="is-6 has-small-margin-top">Helper <span class="has-text-weight-normal">/ Player</span></h6>
-          </div>
-          <!-- End Team Item 5 -->
-
-          <!-- Start Team Item 6 -->
-          <div class="column">
-            <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
-            <h6 class="is-6 has-small-margin-top">Helper <span class="has-text-weight-normal">/ Player</span></h6>
-          </div>
-          <!-- End Team Item 6 -->
-
-        </div>
-        <!-- Start Team Avatars Row 2 -->
-
-      </div>
-    </div>
-  </section>
-  <!-- End Meet The Team Section -->
-
-  <!-- Start Call To Action Banner 2 -->
-  <section class="hero has-gtc-background-image ">
-    <div class="hero-body">
-      <div class="container">
-        <h1 class="title has-text-white">
-          Get to know the community
-        </h1>
-        <h2 class="subtitle has-text-white">
-          Join the <a class="has-text-primary">forums</a> today!
-        </h2>
-      </div>
-    </div>
-  </section>
-  <!-- End Call To Action Banner 2 -->
-
-  <!-- Start Contact Section -->
-  <section class="section is-medium">
-    <div class="container">
-      <!-- Start Contact Titles  -->
-      <h1 class="title has-text-centered">Contact us</h1>
-      <h5 class="subtitle has-text-centered">In case you need our help</h5>
-      <!-- End About Titles  -->
-      <div class="content">
-
-        <!-- Start Row -->
-        <div class="columns has-large-margin-top">
-
-          <!-- Start Contact Info -->
-          <div class="column is-one-quarter">
-            <div class="card is-primary has-text-left">
-              <div class="card-content">
-                <div class="content">
-
-                  <!-- Start Contact Info Title -->
-                  <h4 class="has-text-white">Contact Info</h4>
-                  <!-- End Contact Info Title -->
-
-                  <!-- Start Contact Email -->
-                  <div>
-                    <span class="fa-stack">
-                      <i class="fas fa-circle fa-stack-2x has-text-dark"></i>
-                      <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <span>
-                      <a class="has-text-white" href="mailto:contact@yourserver.com">contact@yourserver.com</a>
-                    </span>
-                  </div>
-                  <!-- End Contact Email -->
-
-                  <!-- Start Contact Email -->
-                  <div class="has-small-margin-top">
-                    <span class="fa-stack">
-                      <i class="fas fa-circle fa-stack-2x has-text-dark"></i>
-                      <i class="fas fa-globe-americas fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <span>
-                      <a class="has-text-white" href="https://www.yourserver.com">www.yourserver.com</a>
-                    </span>
-                  </div>
-                  <!-- End Contact Email -->
+                    <!-- Start Icon 3 -->
+                    <div class="column">
+                        <div class="icon">
+                            <img src="assets/img/heart.png">
+                        </div>
+                        <div>
+                            <h6 class="title is-6 has-medium-margin-top">Весёлое комьюнити</h6>
+                        </div>
+                    </div>
+                    <!-- End Icon 3 -->
 
                 </div>
-              </div>
-            </div>
-          </div>
-          <!-- End Contact Info -->
+                <!-- End About Icons Row 1 -->
 
-          <!-- Start Contact Form -->
-          <div class="column">
-            <div class="card">
-              <div class="card-content">
-                <div class="content">
+                <!-- Start About Icons Row 2 -->
+                <div class="columns has-large-margin-top">
 
-                  <!-- Start Contact Form Title -->
-                  <h4>Drop us a message</h4>
-                  <!-- End Contact Form Title -->
-
-                  <!-- Start Form -->
-                  <form action="/action_page.php">
-
-                    <!-- Start Form Name -->
-                    <div class="field">
-                      <label class="label">Name</label>
-                      <div class="control">
-                        <input class="input" required="true" type="text" placeholder="John Doe">
-                      </div>
+                    <!-- Start Icon 4 -->
+                    <div class="column">
+                        <div class="icon">
+                            <img src="assets/img/coin.png">
+                        </div>
+                        <div>
+                            <h6 class="title is-6 has-medium-margin-top">Стабильная валюта</h6>
+                        </div>
                     </div>
-                    <!-- End Form Name -->
+                    <!-- End Icon 4 -->
 
-                    <!-- Start Form Email -->
-                    <div class="field">
-                      <label class="label">Email</label>
-                      <div class="control">
-                        <input class="input" required="true" type="email" placeholder="john.doe@example.com">
-                      </div>
+                    <!-- Start Icon 5 -->
+                    <div class="column">
+                        <div class="icon">
+                            <img src="assets/img/support.png">
+                        </div>
+                        <div>
+                            <h6 class="title is-6 has-medium-margin-top">Быстрая консультация</h6>
+                        </div>
                     </div>
-                    <!-- End Form Email -->
+                    <!-- End Icon 5 -->
 
-                    <!-- Start Form Subject -->
-                    <div class="field">
-                      <label class="label">Subject</label>
-                      <div class="control">
-                        <input class="input" required="true" type="text"
-                          placeholder="Tell us what your message is about">
-                      </div>
+                    <!-- Start Icon 6 -->
+                    <div class="column">
+                        <div class="icon">
+                            <img src="assets/img/clock.png">
+                        </div>
+                        <div>
+                            <h6 class="title is-6 has-medium-margin-top">Стабильный TPS</h6>
+                        </div>
                     </div>
-                    <!-- End Form Subject -->
+                    <!-- End Icon 6 -->
 
-                    <!-- Start Form Message -->
-                    <div class="field">
-                      <label class="label">Message</label>
-                      <div class="control">
-                        <textarea class="textarea" required="true" placeholder="Your full message here"></textarea>
-                      </div>
-                    </div>
-                    <!-- End Form Message -->
-
-                    <!-- Start Form Submit -->
-                    <div class="field is-grouped">
-                      <div class="control">
-                        <button class="button is-primary">Submit</button>
-                      </div>
-                    </div>
-                    <!-- End Form Submit -->
-
-                    <!-- End Form -->
-                  </form>
                 </div>
-              </div>
+                <!-- End About Icons Row 2 -->
+
             </div>
-          </div>
-          <!-- End Contact Form -->
         </div>
-        <!-- End Row -->
-      </div>
-    </div>
-  </section>
-  <!-- End Contact Section -->
+    </section>
+    <!-- End About Section  -->
 
-  <!-- Start Footer -->
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        <strong>yourserver.com &copy; 2019 &mdash; All rights
-          reserved
-        </strong>
-        <br>
-        <small>
-          <span class="server-name"></span>
-          server is in no way affiliated with Mojang, AB.</small>
-      </p>
-      <a href="https://discord.gg/6WYgXtKZ">
-        <img width="30" src="https://assets-global.website-files.com/6257adef93867e50d84d30e2/62594d3a27620a3b5c414341_2d20a45d79110dc5bf947137e9d99b66.svg" alt="Discord Logo">
-      </a>
-    </div>
-  </footer>
-  <!-- End Footer -->
+    <!-- Start Call Call To Action Banner 1 -->
+    <section class="hero has-cta-background-image ">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title has-text-white">
+                    What are you waiting for?
+                </h1>
+                <h2 class="subtitle has-text-white">
+                    Come join us at <strong class="has-text-white server-ip"></strong>
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- Start Call Call To Action Banner 2 -->
 
-  <!-- Include Scripts -->
-  <script src="./assets/js/app.js"></script>
+    <!-- Start Support The Server Section -->
+    <section class="section is-medium">
+        <div class="container has-text-centered">
+            <!-- Start Support The Server Titles -->
+            <h1 class="title">Support the server</h1>
+            <h5 class="subtitle">Because you <span class="has-text-danger">&hearts;</span> us</h5>
+            <!-- End Support The Server Titles -->
+            <div class="content">
+                <div class="columns has-huge-margin-top">
+
+                    <!-- Start Support Item 1 -->
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+                                    <h3>Vip</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus viverra porta.</p>
+                                    <p>Aenean elementum, massa vel vestibulum posuere, risus orci iaculis lorem, id tempus dui nulla vel
+                                        nulla. Etiam eget sapien sed eros iaculis sollicitudin. </p>
+                                    <p>Curabitur laoreet justo tellus, a venenatis felis malesuada vel.</p>
+                                    <h4>$15,00</h4>
+                                    <a href=# class="button is-primary">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Support Item 1 -->
+
+                    <!-- Start Support Item 2 -->
+                    <div class="column">
+                        <div class="card is-popular has-text-centered">
+                            <div class="card-content">
+                                <div class="content">
+                                    <h3 class="has-text-white">Vip+ <span class="tag is-white">POPULAR</span></h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus viverra porta.</p>
+                                    <p>Aenean elementum, massa vel vestibulum posuere, risus orci iaculis lorem, id tempus dui nulla vel
+                                        nulla. Etiam eget sapien sed eros iaculis sollicitudin. </p>
+                                    <p>Curabitur laoreet justo tellus, a venenatis felis malesuada vel.</p>
+                                    <h4 class="has-text-white">$30,00</h4>
+                                    <a href=# class="button is-white">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Support Item 2 -->
+
+                    <!-- Start Support Item 3 -->
+                    <div class="column">
+                        <div class="card has-text-centered">
+                            <div class="card-content">
+                                <div class="content">
+                                    <h3>MVP</h3>
+                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis finibus viverra porta.</p>
+                                    <p>Aenean elementum, massa vel vestibulum posuere, risus orci iaculis lorem, id tempus dui nulla vel
+                                        nulla. Etiam eget sapien sed eros iaculis sollicitudin. </p>
+                                    <p>Curabitur laoreet justo tellus, a venenatis felis malesuada vel.</p>
+                                    <h4>$45,00</h4>
+                                    <a href=# class="button is-primary">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Start Support Item 3 -->
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- End Support The Server Section -->
+
+    <!-- Start Meet The Team Section -->
+    <section class="section is-light is-medium has-text-centered">
+        <div class="container">
+            <!-- Start Meet The Team Titles -->
+            <h1 class="title">Meet the team</h1>
+            <h5 class="subtitle">We're kind, we promise</h5>
+            <!-- End Meet The Team Titles -->
+            <div class="content">
+
+                <!-- Start Team Avatars Row 1 -->
+                <div class="columns has-large-margin-top">
+
+                    <!-- Start Team Item 1 -->
+                    <div class="column">
+                        <img src="https://mc-heads.net/avatar/GuFugu" alt="GuFugu">
+                        <h6 class="is-6 has-small-margin-top">Owner <span class="has-text-weight-normal">/ GuFugu</span></h6>
+                    </div>
+                    <!-- End Team Item 1 -->
+
+                    <!-- Start Team Item 2 -->
+                    <div class="column">
+                        <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
+                        <h6 class="is-6 has-small-margin-top">Admin <span class="has-text-weight-normal">/ Player</span></h6>
+                    </div>
+                    <!-- End Team Item 2 -->
+
+                    <!-- Start Team Item 3 -->
+                    <div class="column">
+                        <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
+                        <h6 class="is-6 has-small-margin-top">Moderator <span class="has-text-weight-normal">/ Player</span></h6>
+                    </div>
+                    <!-- End Team Item 3 -->
+
+                </div>
+                <!-- Start Team Avatars Row 1 -->
+
+                <!-- Start Team Avatars Row 2 -->
+                <div class="columns">
+
+                    <!-- Start Team Item 4 -->
+                    <div class="column">
+                        <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
+                        <h6 class="is-6 has-small-margin-top">Helper <span class="has-text-weight-normal">/ Player</span></h6>
+                    </div>
+                    <!-- End Team Item 4 -->
+
+                    <!-- Start Team Item 5 -->
+                    <div class="column">
+                        <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
+                        <h6 class="is-6 has-small-margin-top">Helper <span class="has-text-weight-normal">/ Player</span></h6>
+                    </div>
+                    <!-- End Team Item 5 -->
+
+                    <!-- Start Team Item 6 -->
+                    <div class="column">
+                        <img src="https://www.mc-heads.net/avatar/8667ba71b85a4004af54457a9734eed7/150" alt="Steve's head">
+                        <h6 class="is-6 has-small-margin-top">Helper <span class="has-text-weight-normal">/ Player</span></h6>
+                    </div>
+                    <!-- End Team Item 6 -->
+
+                </div>
+                <!-- Start Team Avatars Row 2 -->
+
+            </div>
+        </div>
+    </section>
+    <!-- End Meet The Team Section -->
+
+    <!-- Start Call To Action Banner 2 -->
+    <section class="hero has-gtc-background-image ">
+        <div class="hero-body">
+            <div class="container">
+                <h1 class="title has-text-white">
+                    Get to know the community
+                </h1>
+                <h2 class="subtitle has-text-white">
+                    Join the <a class="has-text-primary">forums</a> today!
+                </h2>
+            </div>
+        </div>
+    </section>
+    <!-- End Call To Action Banner 2 -->
+
+    <!-- Start Contact Section -->
+    <section class="section is-medium">
+        <div class="container">
+            <!-- Start Contact Titles  -->
+            <h1 class="title has-text-centered">Contact us</h1>
+            <h5 class="subtitle has-text-centered">In case you need our help</h5>
+            <!-- End About Titles  -->
+            <div class="content">
+
+                <!-- Start Row -->
+                <div class="columns has-large-margin-top">
+
+                    <!-- Start Contact Info -->
+                    <div class="column is-one-quarter">
+                        <div class="card is-primary has-text-left">
+                            <div class="card-content">
+                                <div class="content">
+
+                                    <!-- Start Contact Info Title -->
+                                    <h4 class="has-text-white">Contact Info</h4>
+                                    <!-- End Contact Info Title -->
+
+                                    <!-- Start Contact Email -->
+                                    <div>
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x has-text-dark"></i>
+                                            <i class="fas fa-envelope fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        <span>
+                                            <a class="has-text-white" href="mailto:contact@yourserver.com">contact@yourserver.com</a>
+                                        </span>
+                                    </div>
+                                    <!-- End Contact Email -->
+
+                                    <!-- Start Contact Email -->
+                                    <div class="has-small-margin-top">
+                                        <span class="fa-stack">
+                                            <i class="fas fa-circle fa-stack-2x has-text-dark"></i>
+                                            <i class="fas fa-globe-americas fa-stack-1x fa-inverse"></i>
+                                        </span>
+                                        <span>
+                                            <a class="has-text-white" href="https://fugance.xyz">fugance.xyz</a>
+                                        </span>
+                                    </div>
+                                    <!-- End Contact Email -->
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Contact Info -->
+
+                    <!-- Start Contact Form -->
+                    <div class="column">
+                        <div class="card">
+                            <div class="card-content">
+                                <div class="content">
+
+                                    <!-- Start Contact Form Title -->
+                                    <h4>Drop us a message</h4>
+                                    <!-- End Contact Form Title -->
+
+                                    <!-- Start Form -->
+                                    <form action="/action_page.php">
+
+                                        <!-- Start Form Name -->
+                                        <div class="field">
+                                            <label class="label">Name</label>
+                                            <div class="control">
+                                                <input class="input" required="true" type="text" placeholder="John Doe">
+                                            </div>
+                                        </div>
+                                        <!-- End Form Name -->
+
+                                        <!-- Start Form Email -->
+                                        <div class="field">
+                                            <label class="label">Email</label>
+                                            <div class="control">
+                                                <input class="input" required="true" type="email" placeholder="john.doe@example.com">
+                                            </div>
+                                        </div>
+                                        <!-- End Form Email -->
+
+                                        <!-- Start Form Subject -->
+                                        <div class="field">
+                                            <label class="label">Subject</label>
+                                            <div class="control">
+                                                <input class="input" required="true" type="text" placeholder="Tell us what your message is about">
+                                            </div>
+                                        </div>
+                                        <!-- End Form Subject -->
+
+                                        <!-- Start Form Message -->
+                                        <div class="field">
+                                            <label class="label">Message</label>
+                                            <div class="control">
+                                                <textarea class="textarea" required="true" placeholder="Your full message here"></textarea>
+                                            </div>
+                                        </div>
+                                        <!-- End Form Message -->
+
+                                        <!-- Start Form Submit -->
+                                        <div class="field is-grouped">
+                                            <div class="control">
+                                                <button class="button is-primary">Submit</button>
+                                            </div>
+                                        </div>
+                                        <!-- End Form Submit -->
+
+                                        <!-- End Form -->
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- End Contact Form -->
+                </div>
+                <!-- End Row -->
+            </div>
+        </div>
+    </section>
+    <!-- End Contact Section -->
+
+    <!-- Start Footer -->
+    <footer class="footer">
+        <div class="content has-text-centered">
+            <p>
+                <strong>yourserver.com &copy; 2019 &mdash; All rights
+                    reserved
+                </strong>
+                <br>
+                <small>
+                    <span class="server-name"></span>
+                    server is in no way affiliated with Mojang, AB.</small>
+            </p>
+            <a href="https://discord.gg/aavuNFZf4R">
+                <img width="30" src="./assets/img/discord-logo-small.svg" alt="Discord Logo">
+            </a>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Include Scripts -->
+    <script src="./assets/js/app.js"></script>
 
 </body>
 
